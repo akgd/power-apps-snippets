@@ -4,4 +4,4 @@ Submit form to SharePoint and navigate to success screen (no validation)
 
 Validate and submit SharePoint form
 
-```If(SharePointForm1.Valid,SubmitForm(SharePointForm1)&&Navigate(Screen1),SubmitForm(SharePointForm1))```
+```If(SharePointForm1.Valid,SubmitForm(SharePointForm1)&&Navigate(SuccessScreen),SubmitForm(SharePointForm1))```
