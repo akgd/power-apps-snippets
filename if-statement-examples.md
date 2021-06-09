@@ -10,7 +10,7 @@ If(
 );
 ```
 
-If a choice field does not contain a certain string, update a variable. If not, reset some fields.
+If a choice field contains a certain string, update a variable. If not, reset some fields.
 ```
 If(
     Not(IsBlank(Find("Internal",Purpose.Selected.Value))),
