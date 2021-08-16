@@ -21,5 +21,8 @@ If(
 
 If a multichoice field containes a value, return true.
 ```
-If(IsBlank(Find("Other",DataCardValue2.Selected.Value)),false,true)
+If(
+    IsBlank(Find("Other",DataCardValue2.Selected.Value)),
+    false,true
+   )
 ```
